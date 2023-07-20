@@ -1,0 +1,308 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "مریم",
+      "lastname": " فیض اله",
+      "phone": "09129057391",
+      "roles": "مدیر"
+    },
+    {
+      "id": "2",
+      "name": "مینا",
+      "lastname": "داداشی",
+      "phone": "09390000000",
+      "roles": "مدیر"
+    },
+    {
+      "id": "3",
+      "name": "مهسا ",
+      "lastname": " موسوی",
+      "phone": "09390000000",
+      "roles": "مدیر"
+    },
+    {
+      "id": "4",
+      "name": "عطیه ",
+      "phone": "09390000000",
+      "lastname": "نفریه ",
+      "roles": "مشتری"
+    },
+    {
+      "id": "5",
+      "name": "هانیه",
+      "phone": "09390000000",
+      "lastname": " میرزا پور",
+      "roles": "مشتری"
+    },
+    {
+      "id": "6",
+      "name": "زهرا",
+      "phone": "09390000000",
+      "lastname": " توکلی",
+      "roles": "مشتری"
+    },
+    {
+      "id": "7",
+      "name": "فاطمه",
+      "phone": "09390000000",
+      "lastname": " محمدیان",
+      "roles": "مشتری"
+    },
+    {
+      "id": "8",
+      "name": "پارمیس",
+      "lastname": "موسوی",
+      "phone": "09390000000",
+      "roles": "مشتری"
+    },
+    {
+      "id": "9",
+      "name": "فاطمه",
+      "lastname": "ناصری",
+      "phone": "09390055000",
+      "roles": "مشتری"
+    }
+  ],
+  "reserve": [
+    {
+      "id": "1",
+      "userName": "مریم ",
+      "userFamily": "فیض اله ",
+      "userPhone": "09190573621",
+      "personel": "الهام",
+      "services": "کاشت ناخن"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "name": "کاشت ناخن",
+      "peyment": "۱۰۰,۰۰۰",
+      "time": "۴۵",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "2",
+      "name": "اکستنشن مو",
+      "peyment": "۵۰۰,۰۰۰",
+      "time": "۲۱۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "3",
+      "name": " اکستنشن مژه",
+      "peyment": "۲۰۰,۰۰۰",
+      "time": "۹۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "4",
+      "name": " ترمیم اکستنشن",
+      "peyment": "۲۰۰,۰۰۰",
+      "time": "۹۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "5",
+      "name": " کاشت موقت",
+      "peyment": "۲۰۰,۰۰۰",
+      "time": "۶۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "6",
+      "name": " لیفت مژه",
+      "peyment": "۱۰۰,۰۰۰",
+      "time": "۶۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "7",
+      "name": " لیفت ابرو",
+      "peyment": "۱۰۰,۰۰۰",
+      "time": "۴۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "8",
+      "name": " میکروبلیدینگ",
+      "peyment": "۲۰۰,۰۰۰",
+      "time": "۴۵",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "9",
+      "name": " بن مژه",
+      "peyment": "۱۰۰,۰۰۰",
+      "time": "۲۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "10",
+      "name": " کاشت ناخن",
+      "peyment": "۱۰۰,۰۰۰",
+      "time": "۴۵",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "11",
+      "name": " بافت مو با موی اضافه",
+      "peyment": "۱۰۰,۰۰۰",
+      "time": "۶۰",
+      "img": "/public/img/nail-polish.png"
+    },
+    {
+      "id": "12",
+      "name": " بافت مو با نگین",
+      "peyment": "۵۰,۰۰۰",
+      "time": "۴۰",
+      "img": "/public/img/nail-polish.png"
+    }
+  ],
+  "personels": [
+    {
+      "id": "1",
+      "name": "مرضیه",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه  ",
+        "  جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "4"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "پرستو",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه  ",
+        "  جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "11"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "ساناز",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه",
+        " جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "3"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "سحر",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه",
+        " جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "12"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "مهدیس",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه",
+        " جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "5"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "آتوسا",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه",
+        " جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "6"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "مرجان",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه",
+        " جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "7"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "ناهید",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه",
+        " جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "8"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "دنیز",
+      "phone": "09390000000",
+      "services": [
+        "1"
+      ],
+      "dateoff": "۱۴۰۲/۴/۳۱",
+      "dayoff": [
+        " جمعه",
+        " پنج شنبه"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "الهه",
+      "phone": "09390000000",
+      "dayoff": [
+        " پنج شنبه",
+        " جمعه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۶",
+      "services": [
+        "2"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "مریم",
+      "phone": "09129057391",
+      "dayoff": [
+        " شنبه",
+        " یکشنبه"
+      ],
+      "dateoff": "۱۴۰۲/۴/۲۸",
+      "services": [
+        "12"
+      ]
+    }
+  ]
+}

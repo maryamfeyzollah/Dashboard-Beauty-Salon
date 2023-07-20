@@ -1,0 +1,75 @@
+.sidebarWrapper {
+  @apply lg:block absolute right-0 top-0 flex flex-col md:static md:right-auto md:top-auto h-screen overflow-y-scroll md:overflow-y-auto md:w-64 shrink-0 transition-all duration-300 z-40 bg-white;
+}
+.navWrapper {
+  @apply flex flex-col h-full overflow-y-scroll;
+}
+
+.navWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.navWrapper::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.navWrapper::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+}
+
+#menu li a.active,
+li.active {
+  @apply text-pink-100 bg-custom-5;
+  border-radius: 1rem !important;
+}
+
+#menu ul > li > a.link {
+  @apply font-normal;
+  position: relative;
+}
+
+#menu ul > li > a.link:last-child:before {
+  height: 1em;
+  bottom: auto;
+}
+
+#menu ul > li > a.link:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -0.5em;
+  display: block;
+  width: 0;
+  border-left: 1px dashed #777;
+  content: "";
+}
+#menu ul > li > a.link:after {
+  position: absolute;
+  top: 1em;
+  left: -0.5em;
+  display: block;
+  height: 0.5em;
+  width: 1em;
+  border-bottom: 1px dashed #777;
+  border-left: 1px dashed #777;
+  border-radius: 0 0 0 0.3em;
+  content: "";
+}
+
+#menu ul > li > a.active {
+  @apply bg-transparent font-semibold;
+}
+
+li > a > svg {
+  @apply w-4 h-4 group-hover:text-gray-400;
+}
+
+li > a.active > svg,
+li.active > svg {
+  @apply text-pink-100;
+}
+
+#menu .link,
+button.link {
+  @apply flex items-center px-4 py-2 text-base text-violet-950 font-bold  rounded-full gap-6 cursor-pointer;
+}
