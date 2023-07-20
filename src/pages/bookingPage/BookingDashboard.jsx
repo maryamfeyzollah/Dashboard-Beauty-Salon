@@ -21,19 +21,19 @@ function BookingDashboard() {
 
   return (
     <>
-      <main className="h-full font-inter mb-20 ">
+      <main className="h-full font-inter ">
         <Navbar toggle={sidebarToggle} />
 
         {/* Main Content */}
 
-        <div className="mainCard mb-20">
+        <div className="mainCard ">
           <div className=" rounded-xl h-screen  bg-violet-100 p-5 bg-cover bg-[url('https://i.ibb.co/M9LB3Kq/Glassmorphism-Background.png')]  ">
             <ProgressSteps />
             <h1 className=" text-custom-2 mb-5 font-bold text-2xl">
               لیست خدمات
             </h1>
 
-            <div className="grid lg:grid-cols-3 grid-cols-2 gap-4  ">
+            <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 mb-20  ">
               {services.map((service) => (
                 <Link key={service.id} to={`/booking/${service.id}`}>
                   <div className="flex flex-col cursor-pointer items-center justify-center bg-slate-200 bg-opacity-25 backdrop-filter backdrop-blur-lg bg-clip-padding backdrop-saturate-150 rounded-2xl shadow-2xl p-4 ">
