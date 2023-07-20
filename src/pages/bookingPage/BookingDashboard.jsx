@@ -21,13 +21,13 @@ function BookingDashboard() {
 
   return (
     <>
-      <main className="h-full font-inter mb-16">
+      <main className="h-full font-inter ">
         <Navbar toggle={sidebarToggle} />
 
         {/* Main Content */}
 
         <div className="mainCard">
-          <div className=" rounded-xl h-screen  bg-violet-100 p-5 bg-cover bg-[url('https://i.ibb.co/M9LB3Kq/Glassmorphism-Background.png')]  ">
+          <div className="mb-16 rounded-xl h-screen  bg-violet-100 p-5 bg-cover bg-[url('https://i.ibb.co/M9LB3Kq/Glassmorphism-Background.png')]  ">
             <ProgressSteps />
             <h1 className=" text-custom-2 mb-5 font-bold text-2xl">
               لیست خدمات
