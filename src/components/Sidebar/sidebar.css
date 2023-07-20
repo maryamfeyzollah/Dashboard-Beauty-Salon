@@ -1,5 +1,5 @@
 .sidebarWrapper {
-  @apply lg:block absolute right-0 top-0 flex flex-col md:static md:right-auto md:top-auto h-screen overflow-y-scroll md:overflow-y-auto md:w-56 shrink-0  transition-all duration-300 z-40 bg-white;
+  @apply lg:block absolute right-0 top-0 flex flex-col md:static md:right-auto md:top-auto h-screen overflow-y-scroll md:overflow-y-auto md:w-64 shrink-0 transition-all duration-300 z-40 bg-white;
 }
 .navWrapper {
   @apply flex flex-col h-full overflow-y-scroll;
