@@ -21,7 +21,7 @@ function BookingDashboard() {
 
   return (
     <>
-      <main className="h-full font-inter">
+      <main className="h-full font-inter mb-16">
         <Navbar toggle={sidebarToggle} />
 
         {/* Main Content */}
