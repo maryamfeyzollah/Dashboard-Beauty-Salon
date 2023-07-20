@@ -26,7 +26,7 @@ function LoginIndex() {
           <div className="md:bg-violet-300 md:min-h-screen flex flex-wrap md:w-1/2">
             <div className="items-center text-center flex flex-col relative justify-center mx-auto">
               <img
-                src="../../../../public/img/otp.png"
+                src="https://i.ibb.co/cv8TxwC/otp.png"
                 alt="Logo Login"
                 className="md:w-96 w-72 mx-auto"
               />
