@@ -9,7 +9,7 @@ function Index({ toggle }) {
           <div className="relative bg-white flex w-full items-center px-5 py-5">
             <div className="flex-1">
               <p
-                className="cursor-pointer md:hidden text-2xl text-custom-2"
+                className="cursor-pointer md:hidden text-base text-custom-2"
                 onClick={toggle}
               >
                 <FontAwesomeIcon icon={faBars} /> منو
