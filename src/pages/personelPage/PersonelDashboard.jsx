@@ -13,7 +13,7 @@ function PersonelDashboard() {
     },
     {
       key: "name",
-      label: "نام و نام خانوادگی",
+      label: "نام   ",
     },
 
     {
@@ -47,7 +47,7 @@ function PersonelDashboard() {
   return (
     <>
       <main className="h-full font-inter ">
-      <Navbar toggle={sidebarToggle} />
+        <Navbar toggle={sidebarToggle} />
         {/* Main Content */}
         <div className="mainCard ">
           <div className=" border w-full border-gray-200 bg-white py-4 px-6 rounded-xl">
