@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const SERVER_URL = "https://dashboard-beauty-salon-api.vercel.app/";
+const SERVER_URL = "https://dashboard-beauty-salon-api.vercel.app";
 
 export const getAllUsers = () => {
   const url = `${SERVER_URL}/users`;
