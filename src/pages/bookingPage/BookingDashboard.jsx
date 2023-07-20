@@ -37,7 +37,10 @@ function BookingDashboard() {
               {services.map((service) => (
                 <Link key={service.id} to={`/booking/${service.id}`}>
                   <div className="flex flex-col cursor-pointer items-center justify-center bg-slate-200 bg-opacity-25 backdrop-filter backdrop-blur-lg bg-clip-padding backdrop-saturate-150 rounded-2xl shadow-2xl p-4 ">
-                    <img className="lg:w-60 lg:h-52 " src={service.img} />
+                    <img
+                      className="lg:w-60 lg:h-52 "
+                      src="https://i.ibb.co/Nt95R5T/nail-polish.png"
+                    />
                     <h2 className="md:text-2xl text-xs font-bold text-custom-1 m-2">
                       {service.name}
                     </h2>
