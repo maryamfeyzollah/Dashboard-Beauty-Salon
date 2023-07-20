@@ -229,7 +229,7 @@
   background-color: #f2f2f2;
   box-shadow: 0px 0px 15px #00000027;
   padding: 15px 10px;
-  border-radius: 5em;
+  
 }
 
 .social-button {
@@ -304,3 +304,4 @@
 .instagram:hover svg {
   fill: #c13584;
 }
+
