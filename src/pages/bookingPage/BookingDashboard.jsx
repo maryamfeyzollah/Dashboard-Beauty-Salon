@@ -26,7 +26,7 @@ function BookingDashboard() {
 
         {/* Main Content */}
 
-        <div className="mainCard mb-16">
+        <div className="mainCard mb-20">
           <div className=" rounded-xl h-screen  bg-violet-100 p-5 bg-cover bg-[url('https://i.ibb.co/M9LB3Kq/Glassmorphism-Background.png')]  ">
             <ProgressSteps />
             <h1 className=" text-custom-2 mb-5 font-bold text-2xl">
