@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const SERVER_URL = "http://localhost:9000";
+const SERVER_URL = "https://dashboard-beauty-salon-api.vercel.app/";
 
 export const getAllUsers = () => {
   const url = `${SERVER_URL}/users`;
@@ -97,7 +97,6 @@ export const updatePersonel = (personel, personelId) => {
   const url = `${SERVER_URL}/personels/${personelId}`;
   return axios.put(url, personel);
 };
-
 
 // reserv
 
