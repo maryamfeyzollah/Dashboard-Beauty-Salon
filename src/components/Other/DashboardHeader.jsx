@@ -24,7 +24,7 @@ function DashboardHeader({ toggle }) {
           </Link>
         </div>
 
-        <p className="cursor-pointer md:hidden text-2xl" onClick={toggle}>
+        <p className="cursor-pointer md:hidden text-base" onClick={toggle}>
           <FontAwesomeIcon icon={faBars} /> منو
         </p>
       </div>
