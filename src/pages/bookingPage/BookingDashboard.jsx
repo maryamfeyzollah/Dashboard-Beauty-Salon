@@ -33,10 +33,10 @@ function BookingDashboard() {
               لیست خدمات
             </h1>
 
-            <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 mb-20  ">
+            <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 last:mb-32 ">
               {services.map((service) => (
                 <Link key={service.id} to={`/booking/${service.id}`}>
-                  <div className="flex flex-col cursor-pointer items-center justify-center bg-slate-200 bg-opacity-25 backdrop-filter backdrop-blur-lg bg-clip-padding backdrop-saturate-150 rounded-2xl shadow-2xl p-4 ">
+                  <div className="flex flex-col cursor-pointer items-center justify-center bg-slate-200 bg-opacity-25 backdrop-filter backdrop-blur-lg bg-clip-padding backdrop-saturate-150 rounded-2xl shadow-2xl p-4  ">
                     <img
                       className="lg:w-60 lg:h-52 "
                       src="https://i.ibb.co/Nt95R5T/nail-polish.png"
