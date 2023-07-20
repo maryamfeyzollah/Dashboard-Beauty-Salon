@@ -4,7 +4,7 @@ function Table({ dataHeader, handleSort, direction, field, children } = {}) {
   return (
     <div className="overflow-x-auto">
       <table
-        className={`block md:table w-full text-sm text-left text-gray-500`}
+        className={`block md:table w-full text-sm text-left text-gray-500 mb-10`}
       >
         <Header
           data={dataHeader}
@@ -12,7 +12,7 @@ function Table({ dataHeader, handleSort, direction, field, children } = {}) {
           direction={direction}
           field={field}
         ></Header>
-        <tbody className="block md:table-row-group">{children}</tbody>
+        <tbody className="block md:table-row-group ">{children}</tbody>
       </table>
     </div>
   );

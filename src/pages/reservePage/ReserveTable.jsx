@@ -3,11 +3,6 @@ import TableCell from "../../components/Datatables/TableCell";
 
 import { useDispatch, useSelector } from "react-redux";
 
-import {
-  deleteApiUser,
-  fetchUsers,
-  selectAllUsers,
-} from "../../reducers/usersSlice";
 
 import { useEffect } from "react";
 import { fetchReserve, selectAllReserve } from "../../reducers/reserveSlice";
