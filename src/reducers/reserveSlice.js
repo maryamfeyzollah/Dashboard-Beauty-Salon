@@ -46,4 +46,10 @@ const reserveSlice = createSlice({
 
 export const selectAllReserve = (state) => state.reserve;
 
+export const LastReservelId = (state) => {
+  const reserve = state.reserve.map((s) => s.id);
+  const sortedIds = reserve.sort((a, b) => b - a);
+  return sortedIds.length > 0 ? sortedIds[0] : null;
+};
+
 export default reserveSlice.reducer;

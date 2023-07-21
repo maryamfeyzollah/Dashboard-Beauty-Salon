@@ -1,6 +1,6 @@
 const DashboardCard = () => {
   return (
-    <div className="relative border border-rose-200 bg-pink-200 p-4 sm:p-6 rounded-xl overflow-hidden mb-8">
+    <div className="relative border border-rose-200 bg-pink-200 p-4 sm:p-6 rounded-xl overflow-hidden">
       {/* Background illustration */}
       <div
         className="absolute left-0 top-0 -mt-4 ml-16 pointer-events-none hidden xl:block"
