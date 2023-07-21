@@ -70,7 +70,7 @@ function Dashboard() {
           <div className="col-span-2">
             <Banner />
           </div>
-          <div className="col-span-1 items-center   ">
+          <div className="flex items-center justify-center">
             <MiniCalendar />
           </div>
         </div>
