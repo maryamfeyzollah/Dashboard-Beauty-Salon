@@ -26,19 +26,19 @@ function BookingDashboard() {
 
         {/* Main Content */}
 
-        <div className="mainCard ">
-          <div className=" rounded-xl h-screen  bg-violet-100 p-5 bg-cover bg-[url('https://i.ibb.co/M9LB3Kq/Glassmorphism-Background.png')]  ">
+        <div className="mainCard  ">
+          <div className=" rounded-xl bg-violet-100  p-5 bg-cover bg-[url('https://i.ibb.co/M9LB3Kq/Glassmorphism-Background.png')]  ">
             <ProgressSteps />
             <h1 className=" text-custom-2 mb-5 font-bold text-2xl">
               لیست خدمات
             </h1>
 
-            <div className="grid lg:grid-cols-3 grid-cols-2 gap-4 last:mb-32 ">
+            <div className="grid xl:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-4 mb-16 md:mb-1 ">
               {services.map((service) => (
                 <Link key={service.id} to={`/booking/${service.id}`}>
                   <div className="flex flex-col cursor-pointer items-center justify-center bg-slate-200 bg-opacity-25 backdrop-filter backdrop-blur-lg bg-clip-padding backdrop-saturate-150 rounded-2xl shadow-2xl p-4  ">
                     <img
-                      className="lg:w-60 lg:h-52 "
+                      className="xl:w-24 xl:h-24 "
                       src="https://i.ibb.co/Nt95R5T/nail-polish.png"
                     />
                     <h2 className="md:text-2xl text-xs font-bold text-custom-1 m-2">

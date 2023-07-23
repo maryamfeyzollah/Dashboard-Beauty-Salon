@@ -10,7 +10,9 @@ const Widget = ({ icon, title, subtitle }) => {
       </div>
 
       <div className="mr-5 flex w-auto flex-col ">
-        <p className=" p-2 text-sm font-semibold text-gray-600">{title}</p>
+        <p className=" px-2 py-1 text-xs font-semibold text-gray-400">
+          {title}
+        </p>
         <h4 className="text-base px-2 font-bold text-navy-700">
           {subtitle} {"عدد"}
         </h4>

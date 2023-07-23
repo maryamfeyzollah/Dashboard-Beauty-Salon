@@ -42,7 +42,7 @@ const DashboardWidget = () => {
   }, [dispatch]);
 
   return (
-    <div className="mainCard grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+    <div className="mainCard grid grid-cols-2 gap-5 md:grid-cols-2 xl:grid-cols-4">
       <Widget
         icon={<BsFillCalendarWeekFill className="h-6 w-6" />}
         title={"نوبت ها"}

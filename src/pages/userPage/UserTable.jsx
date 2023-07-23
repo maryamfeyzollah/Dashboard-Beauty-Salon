@@ -28,6 +28,7 @@ function UserTable({ dataHeader }) {
   const handleConfirmDelete = () => {
     if (selectedUser) {
       dispatch(deleteApiUser(selectedUser.id));
+      window.location.reload();
     }
     setSelectedUser(null);
   };

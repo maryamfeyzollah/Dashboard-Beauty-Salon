@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function ScrolledCard({ data, ...props }) {
+function ScrolledCard({ data }) {
   return (
     <div
       className={`scrolledCard ${data.color} text-slate-50 flex flex-col justify-center items-center`}

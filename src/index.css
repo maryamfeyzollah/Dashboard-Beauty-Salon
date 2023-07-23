@@ -31,7 +31,7 @@
 }
 
 .scrolledCard {
-  @apply cursor-pointer rounded-md text-sm flex-shrink-0 md:flex-shrink px-2 py-4 w-[160px] lg:w-1/5;
+  @apply cursor-pointer rounded-xl text-sm flex-shrink-0 md:flex-shrink px-2 py-4 w-[160px] md:w-1/5;
 }
 
 .cardInfo {

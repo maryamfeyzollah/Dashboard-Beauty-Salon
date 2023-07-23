@@ -1,7 +1,7 @@
 import DashboardHeader from "../components/Other/DashboardHeader.jsx";
 import ScrolledCard from "../components/Widget/ScrolledCard.jsx";
 import { useNavigate, useOutletContext } from "react-router-dom";
-import DashboardCard from "../components/BottomNavbar/DashboardCard.jsx";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
@@ -12,7 +12,7 @@ import {
   faPenRuler,
 } from "@fortawesome/free-solid-svg-icons";
 import DashboardWidget from "./DashboardWidget.jsx";
-import MiniCalendar from "../components/Other/MiniCalendar.jsx";
+import DailyTraffic from "../components/Other/DailyTraffic.jsx";
 import Banner from "../components/Other/Banner.jsx";
 
 function Dashboard() {
@@ -56,33 +56,28 @@ function Dashboard() {
 
   return (
     <>
-      <main className="h-full ">
+      <main className="h-full  ">
         {/* Welcome Header */}
         <DashboardHeader toggle={sidebarToggle} />
-        {/* Laba */}
-        {/* <div className="mx-auto mainCard">
-          <DashboardCard />
-        </div> */}
-        {/* -------------------------------DASHBOARD WIDGET----------------------------- */}
+
+        {/*  DashboardWidget */}
         <DashboardWidget />
-        <div className="grid xl:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 gap-10 mainCard items-center ">
+        <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-8 mainCard  ">
           {/*  Banner */}
-          <div className="col-span-2">
+          <div className="xl:col-span-2 md:col-span-1">
             <Banner />
           </div>
-          <div className="flex items-center justify-center">
-            <MiniCalendar />
+          <div className="xl:col-span-1 md:col-span-1 w-full ">
+            <DailyTraffic />
           </div>
         </div>
         {/* OS Kredit */}
-        <div className="px-2 mx-auto mainCard">
-          <div className="flex flex-row gap-x-4 overflow-hidden overflow-x-auto justify-between no-scrollbar">
+        <div className="px-2 mx-auto mainCard ">
+          <div className="mb-20 md:mb-3 xl:mb-0 flex flex-row gap-x-4 overflow-hidden overflow-x-auto justify-between">
             {dataOS?.map((data, index) => (
               <ScrolledCard key={index} data={data} navigate={navigate} />
             ))}
           </div>
-
-          <div className="lg:w-full w-[1024px] overflow-hidden flex flex-row justify-between text-slate-700 gap-2 lg:max-h-screen overflow-x-auto whitespace-nowrap"></div>
         </div>
       </main>
     </>

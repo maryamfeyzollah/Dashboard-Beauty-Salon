@@ -33,6 +33,7 @@ function PersonelsTable({ dataHeader }) {
   const handleConfirmDelete = () => {
     if (selectedpersonel) {
       dispatch(deleteApiPersonel(selectedpersonel.id));
+      window.location.reload();
     }
     setSelectedPersonel(null);
   };
@@ -47,6 +48,7 @@ function PersonelsTable({ dataHeader }) {
   const handleUpdatePersonel = (personel) => {
     if (setSelectedPersonelUpdate) {
       dispatch(updateApiPersonel(personel));
+      window.location.reload();
     }
 
     setSelectedPersonelUpdate(null);

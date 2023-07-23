@@ -40,6 +40,7 @@ const PersonelFormPopup = ({ onClose }) => {
 
     dispatch(AddNewPersonel(personnel));
     onClose();
+    window.location.reload();
   };
 
   return (

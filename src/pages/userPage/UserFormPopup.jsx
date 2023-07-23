@@ -7,6 +7,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 const UserFormPopup = ({ onClose }) => {
   const dispatch = useDispatch();
   const latestId = useSelector(LastUserlId);
+
   const handleSubmit = (values) => {
     const newId = parseInt(latestId) + 1;
     const personnel = {
@@ -16,8 +17,8 @@ const UserFormPopup = ({ onClose }) => {
       phone: values.phone,
       roles: values.roles,
     };
-
     dispatch(AddNewUser(personnel));
+    window.location.reload();
 
     onClose();
   };
