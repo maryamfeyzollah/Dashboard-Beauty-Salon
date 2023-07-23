@@ -103,7 +103,7 @@ function PersonelsTable({ dataHeader }) {
             </span>
           </TableCell>
 
-          <TableCell dataLabel="تاریخ مرخصی	" showLabel={true}>
+          <TableCell dataLabel="مرخصی" showLabel={true}>
             <p className="text-xs font-semibold ">{row.dateoff}</p>
           </TableCell>
 
