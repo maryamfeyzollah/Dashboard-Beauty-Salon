@@ -71,7 +71,7 @@ function PersonelsTable({ dataHeader }) {
               {row.id}
             </span>
           </TableCell>
-          <TableCell dataLabel="	نام و نام خانوادگی" showLabel={true}>
+          <TableCell dataLabel="نام پرسنل" showLabel={true}>
             <span className=" font-semibold text-xs text-pink-900 ">
               {row.name}
             </span>

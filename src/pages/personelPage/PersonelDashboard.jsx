@@ -13,7 +13,7 @@ function PersonelDashboard() {
     },
     {
       key: "name",
-      label: "نام   ",
+      label: "نام پرسنل   ",
     },
 
     {
