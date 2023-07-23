@@ -24,7 +24,7 @@ function RegisterIndex() {
 
   return (
     <>
-      <div className="flex  font-inter mainCard">
+      <div className="flex w-full h-full  font-inter">
         <div className="flex w-full flex-col md:flex-row">
           {/* Image */}
           <div className="md:bg-violet-300  flex flex-wrap md:w-1/2">
@@ -43,8 +43,8 @@ function RegisterIndex() {
             </div>
           </div>
           {/* Register Section */}
-          <div className="flex flex-col md:flex-1 items-center justify-center">
-            <div className="loginWrapper flex flex-col w-full lg:px-36 md:px-8 px-8 md:py-8">
+          <div className="flex flex-col md:flex-1 items-center justify-center h-full w-full">
+            <div className="loginWrapper flex flex-col w-full h-full lg:px-36 md:px-8 px-8 md:py-8">
               {/* Login Header Text */}
               <div className="hidden md:block font-medium self-center text-xl sm:text-3xl text-violet-950">
                 ثبت نام
@@ -64,7 +64,7 @@ function RegisterIndex() {
               </div>
 
               {/* Register Form */}
-              <div className="md:mt-10 mt-4">
+              <div className="md:mt-10 mt-4 h-full w-full">
                 <form onSubmit={handleSubmit}>
                   {/* Username */}
                   <div className="flex flex-col mb-3">

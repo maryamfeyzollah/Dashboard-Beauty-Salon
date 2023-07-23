@@ -20,10 +20,10 @@ function LoginIndex() {
 
   return (
     <>
-      <div className="flex  font-inter mainCard">
+      <div className="flex h-full font-inter">
         <div className="flex w-full flex-col md:flex-row">
           {/* Image */}
-          <div className="md:bg-violet-300  flex flex-wrap md:w-1/2">
+          <div className="md:bg-violet-300 md:min-h-screen flex flex-wrap md:w-1/2">
             <div className="items-center text-center flex flex-col relative justify-center mx-auto">
               <img
                 src="https://i.ibb.co/cv8TxwC/otp.png"
