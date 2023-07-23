@@ -26,7 +26,7 @@ export const barChartOptionsDailyTraffic = {
     theme: "dark",
   },
   xaxis: {
-    categories: ["۱", "۴", "۸", "۱۲", "۱۴", "۱۶", "۱۸"],
+    categories: ["00", "04", "08", "12", "14", "16", "18"],
     show: false,
     labels: {
       show: true,
