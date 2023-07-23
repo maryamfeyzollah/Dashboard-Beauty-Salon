@@ -27,7 +27,7 @@ function RegisterIndex() {
       <div className="flex w-full h-full  font-inter">
         <div className="flex w-full flex-col md:flex-row">
           {/* Image */}
-          <div className="md:bg-violet-300  flex flex-wrap md:w-1/2">
+          <div className="md:bg-violet-300  md:flex md:flex-wrap hidden md:w-1/2">
             <div className="items-center text-center flex flex-col relative justify-center mx-auto">
               <img
                 src="https://i.ibb.co/cv8TxwC/otp.png"
@@ -59,8 +59,10 @@ function RegisterIndex() {
                 </div>
               </div>
 
-              <div className="md:hidden block my-4">
-                <h1 className="text-2xl font-semibold">ثبت نام </h1>
+              <div className="md:hidden block my-4 ">
+                <h1 className="text-2xl text-center text-custom-2 font-semibold">
+                  ثبت نام{" "}
+                </h1>
               </div>
 
               {/* Register Form */}

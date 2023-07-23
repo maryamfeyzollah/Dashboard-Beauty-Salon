@@ -23,7 +23,7 @@ function LoginIndex() {
       <div className="flex md:min-h-screen h-full font-inter">
         <div className="flex w-full h-full flex-col md:flex-row">
           {/* Image */}
-          <div className="md:bg-violet-300 md:min-h-screen flex flex-wrap md:w-1/2">
+          <div className="md:bg-violet-300  md:min-h-screen md:flex md:flex-wrap hidden md:w-1/2">
             <div className="items-center text-center flex flex-col relative justify-center mx-auto">
               <img
                 src="https://i.ibb.co/cv8TxwC/otp.png"
@@ -42,7 +42,7 @@ function LoginIndex() {
           <div className="flex flex-col md:flex-1 items-center justify-center w-full h-full ">
             <div className=" flex flex-col w-full h-full lg:px-36 md:px-8 px-3 md:py-8">
               {/* Login Header Text */}
-              <div className="hidden md:block font-medium self-center text-xl sm:text-3xl text-gray-800">
+              <div className="hidden md:block font-medium text-center text-xl sm:text-3xl text-gray-800">
                 خوش آمدید
               </div>
 
@@ -54,11 +54,13 @@ function LoginIndex() {
                   </span>
                 </div>
               </div>
-
+              <div className="md:hidden block my-4 ">
+                <h1 className="text-2xl text-center text-custom-2 font-semibold">ورود</h1>
+              </div>
               <div className="md:hidden block my-4  ">
-                <h1 className="text-base text-violet-950 ">
+                <h1 className="text-base text-violet-950 text-center  ">
                   {" "}
-                  رای استفاده از خدمات سالن زیبایی وارد شوید{" "}
+                  برای استفاده از خدمات سالن زیبایی وارد شوید{" "}
                 </h1>
               </div>
 
@@ -133,7 +135,7 @@ function LoginIndex() {
                       type="submit"
                       className="flex items-center justify-center focus:outline-none text-white text-sm bg-violet-300 hover:bg-violet-500 rounded-lg md:rounded md:py-2 py-3 w-full transition duration-150 ease-in"
                     >
-                      <span className="mr-2 text-base ">
+                      <span className="mr-2 text-base  ">
                         {loading ? "Processing...." : "ورود"}
                       </span>
                     </button>
