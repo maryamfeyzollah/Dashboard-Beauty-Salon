@@ -10,9 +10,9 @@ const Banner = () => {
         <h4 className=" text-xl font-bold text-custom-1  xl:text-3xl xl:pb-10">
           داشبورد سالن زیبایی
         </h4>
-        <p className="mt-4 text-base font-medium text-purple-950 ">
+        <p className="mt-4 text-base font-medium text-purple-950 xl:text-2xl ">
           برای کسب اطلاع از سرویس های سالن زیبایی و ثبت درخواست می توانید از
-          منوی پایین سرویس مورد نطر را انتخاب نمایید
+          منوی پایین سرویس مورد نظر را انتخاب نمایید
         </p>
       </div>
     </div>

@@ -16,7 +16,6 @@ const UpdateUserForm = ({ user, onSubmit, onCancel }) => {
       roles,
     };
     onSubmit(updatedUser);
-    window.location.reload();
   };
 
   return (

@@ -29,7 +29,6 @@ function ServiceTable({ dataHeader }) {
   const handleConfirmDelete = () => {
     if (selectedservice) {
       dispatch(deleteApiService(selectedservice.id));
-      window.location.reload();
     }
     setSelectedService(null);
   };
@@ -44,7 +43,6 @@ function ServiceTable({ dataHeader }) {
   const handleUpdateService = (service) => {
     if (setSelectedServerUpdate) {
       dispatch(updateApiService(service));
-      window.location.reload();
     }
 
     setSelectedServerUpdate(null);

@@ -18,7 +18,7 @@ const UserFormPopup = ({ onClose }) => {
       roles: values.roles,
     };
     dispatch(AddNewUser(personnel));
-    window.location.reload();
+    
 
     onClose();
   };

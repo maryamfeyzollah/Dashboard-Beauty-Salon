@@ -14,7 +14,7 @@ const UpdateServiceForm = ({ service, onSubmit, onCancel }) => {
       time,
     };
     onSubmit(updatedService);
-    window.location.reload();
+   
   };
 
   return (

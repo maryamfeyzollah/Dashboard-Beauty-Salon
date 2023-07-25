@@ -25,7 +25,6 @@ const UpdatePersonelForm = ({ personel, onSubmit, onCancel }) => {
       dayoff: selectedDayOff,
     };
     onSubmit(updatedPersonel);
-    window.location.reload();
   };
 
   const handleDayoffChange = (e) => {

@@ -3,17 +3,22 @@ import TableCell from "../../components/Datatables/TableCell";
 
 import { useDispatch, useSelector } from "react-redux";
 
-
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { fetchReserve, selectAllReserve } from "../../reducers/reserveSlice";
 
 const ReserveTable = ({ dataHeader }) => {
   const dispatch = useDispatch();
   const reserve = useSelector(selectAllReserve);
-
+  const [isChecked, setIsChecked] = useState(
+    localStorage.getItem("isChecked") === "true" || false
+  );
+  const handleCheckboxChange = (event) => {
+    setIsChecked(event.target.checked);
+  };
   useEffect(() => {
+    localStorage.setItem("isChecked", isChecked);
     dispatch(fetchReserve());
-  }, [dispatch]);
+  }, [dispatch, isChecked]);
 
   return (
     <Datatables dataHeader={dataHeader}>
@@ -58,7 +63,12 @@ const ReserveTable = ({ dataHeader }) => {
             <span className=" space-x-1">
               <div className="checkbox-wrapper-5">
                 <div className="check">
-                  <input id="check-5" type="checkbox" />
+                  <input
+                    id="check-5"
+                    type="checkbox"
+                    checked={isChecked}
+                    onChange={handleCheckboxChange}
+                  />
                   <label for="check-5"></label>
                 </div>
               </div>

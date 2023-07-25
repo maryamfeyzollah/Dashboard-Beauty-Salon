@@ -17,7 +17,7 @@ const ServiceFormPopup = ({ onClose }) => {
     };
     dispatch(AddNewService(personnel));
     onClose();
-    window.location.reload();
+    
   };
 
   const validationSchema = Yup.object().shape({
