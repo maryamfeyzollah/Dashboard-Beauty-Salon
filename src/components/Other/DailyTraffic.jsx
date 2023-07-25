@@ -26,7 +26,7 @@ const DailyTraffic = () => {
         </div>
       </div>
 
-      <div className=" w-full md:h-full h-full xl:h-[200px] ">
+      <div className=" w-full  h-full  ">
         <BarChart
           chartData={barChartDataDailyTraffic}
           chartOptions={barChartOptionsDailyTraffic}
